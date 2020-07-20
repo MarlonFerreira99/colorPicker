@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Cores_RGB</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Estilizador de Cores RGB</h1>
+    </header>
+
+    <main>
+      <section>
+
+        <div>
+          <label id="red">
+            (R) Vermelho: 
+            <input 
+              id="redRange"
+              min="0"
+              max="255"
+              step="1"
+              value="0"
+              type="range"
+            >
+            <input
+              id="inputRed"
+              class="input"
+              readonly
+              disabled
+              value="0"      
+              type="text"
+            >
+          </label>
+          
+          <label id="green">
+            (G) Verde: 
+            <input 
+              id="greenRange"
+              min="0"
+              max="255"
+              step="1"
+              value="0"
+              type="range"
+            >
+            <input
+              id="inputGreen"
+              class="input"
+              readonly
+              disabled
+              value="0"      
+              type="text"
+            >
+          </label>
+          
+          <label id="blue">
+            (B) Azul: 
+            <input 
+              id="blueRange"
+              min="0"
+              max="255"
+              step="1"
+              value="0"
+              type="range"
+            >
+            <input
+              id="inputBlue"
+              class="input"
+              readonly
+              disabled
+              value="0"      
+              type="text"
+            >
+          </label>
+    
+          <div id="boxColor"></div>
+        </div>
+
+      </section>
+    </main>
+
+    <script defer src="./js/script.js"></script>
+    
+  </body>
+</html>
