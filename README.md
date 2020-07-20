@@ -14,7 +14,7 @@
 
 ## 💻Sobre
 <p align="center">
-    <img src="assets/img_IGTI.png" style="width: 60px">
+    <img src="assets/img_IGTI.png" style="width: 30px">
 </p> O projeto **Color Picker** é um app para visualização de cores a partir da escala RGB (RED-GREEN-BLUE). . Desenvolvido dentro do curso **Bootcamp Full-Stack do IGTI** com o intuito de colocarmos em prática o conteúdo abordado no módulo.
 
 
